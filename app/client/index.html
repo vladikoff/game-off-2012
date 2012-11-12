@@ -1,0 +1,33 @@
+<head>
+    <title>Core Committer - The Game</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Gudea:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<section class=frames>
+    <section class='frame req-gameover'>
+        {{> gameover }}
+    </section>
+
+    <section class='frame req-project'>
+        {{> choose }}
+    </section>
+
+    {{> tutorial }}
+    {{> welcome }}
+    {{> webgl }}
+</section>
+
+<section class=progress>
+    {{> dashboard}}
+    {{> life}}
+    {{> level}}
+</section>
+
+<section class='control-help'>
+    {{> help}}
+</section>
+
+{{> about}}
+</body>

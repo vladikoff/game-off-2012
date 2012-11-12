@@ -1,0 +1,20 @@
+<template name="gameover">
+    {{#if stats}}
+    <h1>Code Freeze!</h1>
+    <div class=window>
+        <p>You've reached <strong>Level {{stats.LEVEL}}</strong>.
+            with <strong>{{stats.COMMITS}}</strong> more commit(s).
+            <strong>{{stats.STARS}}</strong> more star(s).
+        </p>
+        {{# if stats.EPIC_FAIL }}
+        <p>Get off the fail train and try again!</p>
+        {{else}}
+        <p>Your contribution to this project will be recorded!</p>
+        {{/if}}
+
+        <p>{{#if user}} Contributions saved to your account {{else}} Login to save your name to the scoreboard: {{/if}} {{loginButtons}}  </p>
+        {{> projects }}
+        <button class=again>Play Again &rarr;</button>
+    </div>
+    {{/if}}
+</template>

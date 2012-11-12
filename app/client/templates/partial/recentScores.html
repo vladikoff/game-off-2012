@@ -1,0 +1,21 @@
+<template name="recentScores">
+    <section class=plays>
+        <h3>Recent Games</h3>
+        <ul>
+            {{#each list}}
+            <li class=play>
+                <ul>
+                    {{#if user}}
+                        <li><a target="_blank" href="https://github.com/{{user.services.github.username}}">{{user.services.github.username}}</a></li>
+                    {{/if}}
+                    <li><em>{{project_name}}</em></li>
+                    <li>Level: {{session.LEVEL}}</li>
+                    <li>Commits: {{session.COMMITS}} </li>
+                    <li>Stars: {{session.STARS}}</li>
+                    <li>{{session.SECONDS_PLAYED_STRING}}</li>
+                </ul>
+            </li>
+            {{/each}}
+        </ul>
+    </section>
+</template>

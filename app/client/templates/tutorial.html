@@ -1,0 +1,29 @@
+<template name="tutorial">
+    <section class='frame req-tutorial'>
+        <h1>2. Instructions</h1>
+        <div class=window>
+            <section class=part-large>
+                <ul>
+                    <li>Allow the code blocks <img src=img/crOrangePCode.png width=25 /> <img src=img/crPurplePCode.png width=25 /> <img src=img/crTealPCode.png width=25 />
+                        to hit the related branch color, <br/>
+                        i.e. Good: <img src=img/tutorial-good.png width=75 /> Bad: <img src=img/tutorial-bad.png width=75 /></li>
+                    <li>destroy the blocks that do not match the branch color</li>
+                    <li><strong>branches change</strong> if you destroy matching blocks <strong>or</strong> a <img src=img/crPR.png width=25 /> block</li>
+                    <li>The game gets harder over time, be prepared!</li>
+                    <li><strong>You lose health if you mismatch the colors or destroy good code</strong></li>
+                    <li>When stars <img src=img/crStar.png width=25 /> get to the branch, collect then with your committer <img src=img/player1.png width=45 /></li>
+                    <li>Use branch teleporting (tab) and <span style='text-transform: uppercase'>3D</span> view to your advantage</li>
+                </ul>
+            </section>
+            <section class=part>
+                <h3>Controls</h3>
+                {{> help}}
+                <h3>HTML5 GamePad!</h3>
+                <p>If you have have a game pad, plug it when in game and <strong>start pressing buttons</strong>.
+                <a class=view-gamepad target=_blank href=img/gamepad-map.png>view gamePad controls</a>
+                </p>
+            </section>
+            <button class=continue>Got it! Let's do this!</button>
+        </div>
+    </section>
+</template>

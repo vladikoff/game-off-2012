@@ -1,0 +1,13 @@
+<template name="projects">
+    <section class=ossprojects>
+        <ul>
+            {{#each list}}
+            <li class=project>
+                <span class=name style='color: {{color}}'>{{name}}</span>
+                <span class=data>{{commits}} commits</span>
+                <span class=data>{{stars}} stars</span>
+            </li>
+            {{/each}}
+        </ul>
+    </section>
+</template>

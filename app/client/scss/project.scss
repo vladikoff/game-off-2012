@@ -1,0 +1,338 @@
+@import "_mixins";
+@import "compass";
+
+a {
+    @include link-colors(#000011, #c0c0c0, #000011, #000011, #c0c0c0);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+* {
+    font-family: 'Gudea', sans-serif;
+    text-transform: lowercase;
+}
+
+h3 {
+    margin: 0px;
+}
+
+ul, li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #222222;
+    background: url("/img/bg.png");
+    overflow: hidden;
+
+}
+
+button, .topper-info {
+    position: relative;
+    overflow: visible;
+    display: inline-block;
+    padding: 0.5em 1em;
+
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0 #fff;
+    font-size: 20px;
+    color: #333;
+
+
+    &.new-game, &.continue {
+        font-weight: bold;
+        margin: 30px 0px 30px 275px;
+        width: 350px;
+        padding: 10px 20px;
+    }
+}
+
+
+button, .topper-info, .ossprojects li, .view-gamepad {
+    border: 1px solid #d4d4d4;
+    white-space: nowrap;
+    cursor: pointer;
+    outline: none;
+    background-color: #ececec;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec));
+    background-image: -moz-linear-gradient(#f4f4f4, #ececec);
+    background-image: -ms-linear-gradient(#f4f4f4, #ececec);
+    background-image: -o-linear-gradient(#f4f4f4, #ececec);
+    background-image: linear-gradient(#f4f4f4, #ececec);
+    -moz-background-clip: padding; /* for Firefox 3.6 */
+    background-clip: padding-box;
+    border-radius: 0.2em;
+}
+
+
+.view-gamepad {
+    display: block;
+    text-align: center;
+    padding: 2px;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+button:hover, .ossprojects li:hover {
+    background-color: #ffffff;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ffffff));
+    background-image: -moz-linear-gradient(#f4f4f4, #ffffff);
+    background-image: -ms-linear-gradient(#f4f4f4, #ffffff);
+    background-image: -o-linear-gradient(#f4f4f4, #ffffff);
+    background-image: linear-gradient(#f4f4f4, #ffffff);
+}
+
+.topper-info {
+    color: #FFF;
+    text-transform: lowercase;
+    border-radius: 0;
+    cursor: none;
+    width: 100%;
+    font-size: 10px;
+    color: #000011;
+}
+
+.control-help {
+    font-size: 10px;
+    color: #FFF;
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100px;
+}
+
+.gamepad-status {
+    position: absolute;
+    bottom: 100px;
+    right: 0px;
+    font-size: 12px;
+    width: 100px;
+    color: #FFF;
+    .connected {
+        background: #baff72;
+    }
+}
+
+.req-webgl .continue {
+    margin: 85px 0px 30px 170px;
+    width: 600px;
+    font-size: 23px;
+}
+
+.player-list li {
+    display: inline;
+}
+
+.req-welcome {
+    h3 {
+        color: #333333;
+        margin-left: 6px;
+    }
+}
+
+.req-gameover {
+    h1 {
+        margin-lefT: 75px;
+    }
+    .window p {
+        margin-left: 35px;
+    }
+}
+
+.req-project {
+    aside {
+        font-size: 20px;
+        margin: 20px 0px 20px 35px;
+    }
+}
+
+.frames {
+    width: 990px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.life {
+    height: 20px;
+    width: 100%;
+    // TODO: fix this later
+    // needs latest Compass, add '@import "compass"' to your scss
+    background-color: #cdeb8e;
+    // Old browsers
+    @include background-image(linear-gradient(top, #cdeb8e 0%, #a5c956 100%));
+    text-transform: lowercase;
+
+}
+
+.frame {
+    position: absolute;
+    width: 990px;
+    top: -1000px;
+    margin: 0 auto;
+    h1 {
+        font-weight: normal;
+        font-size: 60px;
+        text-shadow: 2px 1px 4px rgb(39, 38, 38);
+        height: 90px;
+        color: #F3F5F7;
+        margin: 0px 0px 0px 45px;
+        padding: 0px;
+        text-transform: lowercase;
+    }
+    .window {
+        @include box-shadow("inset 0px 1px 0px rgba(255,255,255, 0.25), 0px 10px 20px rgba(0,0,0, 0.7)");
+        width: 900px;
+        overflow: hidden;
+        background: #FFF;
+        position: relative;
+        min-height: 250px;
+        max-height: 460px;
+        margin: 0 auto;
+        .part {
+            width: 25%;
+            float: left;
+            h3 {
+                margin: 20px 0px 0px 0px;
+            }
+        }
+        .part-large {
+            float: left;
+            width: 70%;
+            padding-right: 4%;
+            ul {
+                margin-left: 5%;
+            }
+            li {
+                font-size: 18px;
+                margin: 10px 0px 10px 0px;
+                list-style-type: square;
+            }
+        }
+        h1 {
+            margin: 0px;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #c0c0c0;
+            &.logo span {
+                color: #000011;
+            }
+        }
+        .under-logo {
+            position: absolute;
+            top: 47px;
+            left: 350px;
+        }
+    }
+}
+
+.plays {
+    clear: both;
+    .play {
+        overflow: hidden;
+        float: left;
+        width: 9%;
+        font-size: 10px;
+        border-left: 1px solid grey;
+        padding: 0.7%;
+        margin: 0.7%;
+        white-space: nowrap;
+    }
+}
+
+.progress {
+    display: none;
+}
+
+.ossprojects {
+    li {
+        cursor: pointer;
+        float: left;
+        width: 20%;
+        margin: 1%;
+        padding: 1%;
+        height: 100px;
+        overflow: hidden;
+        span {
+            display: block;
+        }
+
+        .name {
+            font-weight: bold;
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+        .data {
+
+        }
+    }
+    overflow: hidden;
+    margin: 0px 0px 20px 25px;
+}
+
+.about {
+    position: absolute;
+    color: #FFF;
+    left: 0px;
+    bottom: 0px;
+    font-size: 10px;
+    a {
+        color: #FFF;
+    }
+}
+
+.again {
+    position: absolute;
+    top: 40px;
+    right: 36px;
+    width: 200px;
+}
+
+.g-on {
+    color: green;
+}
+
+.level {
+    @include opacity(0.7);
+    display: none;
+    background-color: #fc4e1e;
+    border-radius: 10px;
+    height: 100px;
+    width: 10%;
+    top:80px;
+    margin-left: -10%;
+    left: 50%;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    div {
+        margin-top: 10px;
+        font-size: 24px;
+        span {
+            font-size: 45px;
+            display: block;
+            font-weight: bold;
+            margin: 0auto;
+        }
+    }
+}
+
+.window button.music {
+    padding: 2px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+body > .control-help .music {
+    font-size: 12px;
+    padding: 0px 5px;
+    margin: 0px;
+    border: 0px;
+    text-align: left;
+    text-shadow: none;
+}

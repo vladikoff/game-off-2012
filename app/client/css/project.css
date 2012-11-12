@@ -1,0 +1,389 @@
+/* line 4, ../scss/project.scss */
+a {
+  color: #000011;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* line 18, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a:visited {
+  color: #000011;
+}
+/* line 21, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a:focus {
+  color: silver;
+}
+/* line 24, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a:hover {
+  color: silver;
+}
+/* line 27, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a:active {
+  color: #000011;
+}
+
+/* line 10, ../scss/project.scss */
+* {
+  font-family: 'Gudea', sans-serif;
+  text-transform: lowercase;
+}
+
+/* line 15, ../scss/project.scss */
+h3 {
+  margin: 0px;
+}
+
+/* line 19, ../scss/project.scss */
+ul, li {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 25, ../scss/project.scss */
+body {
+  background-color: #222222;
+  background: url("/img/bg.png");
+  overflow: hidden;
+}
+
+/* line 32, ../scss/project.scss */
+button, .topper-info {
+  position: relative;
+  overflow: visible;
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 0;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0 #fff;
+  font-size: 20px;
+  color: #333;
+}
+/* line 46, ../scss/project.scss */
+button.new-game, button.continue, .topper-info.new-game, .topper-info.continue {
+  font-weight: bold;
+  margin: 30px 0px 30px 275px;
+  width: 350px;
+  padding: 10px 20px;
+}
+
+/* line 55, ../scss/project.scss */
+button, .topper-info, .ossprojects li, .view-gamepad {
+  border: 1px solid #d4d4d4;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: none;
+  background-color: #ececec;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec));
+  background-image: -moz-linear-gradient(#f4f4f4, #ececec);
+  background-image: -ms-linear-gradient(#f4f4f4, #ececec);
+  background-image: -o-linear-gradient(#f4f4f4, #ececec);
+  background-image: linear-gradient(#f4f4f4, #ececec);
+  -moz-background-clip: padding;
+  /* for Firefox 3.6 */
+  background-clip: padding-box;
+  border-radius: 0.2em;
+}
+
+/* line 72, ../scss/project.scss */
+.view-gamepad {
+  display: block;
+  text-align: center;
+  padding: 2px;
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+/* line 80, ../scss/project.scss */
+button:hover, .ossprojects li:hover {
+  background-color: #ffffff;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(white));
+  background-image: -moz-linear-gradient(#f4f4f4, white);
+  background-image: -ms-linear-gradient(#f4f4f4, white);
+  background-image: -o-linear-gradient(#f4f4f4, white);
+  background-image: linear-gradient(#f4f4f4, #ffffff);
+}
+
+/* line 89, ../scss/project.scss */
+.topper-info {
+  color: #FFF;
+  text-transform: lowercase;
+  border-radius: 0;
+  cursor: none;
+  width: 100%;
+  font-size: 10px;
+  color: #000011;
+}
+
+/* line 99, ../scss/project.scss */
+.control-help {
+  font-size: 10px;
+  color: #FFF;
+  width: 100px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100px;
+}
+
+/* line 109, ../scss/project.scss */
+.gamepad-status {
+  position: absolute;
+  bottom: 100px;
+  right: 0px;
+  font-size: 12px;
+  width: 100px;
+  color: #FFF;
+}
+/* line 116, ../scss/project.scss */
+.gamepad-status .connected {
+  background: #baff72;
+}
+
+/* line 121, ../scss/project.scss */
+.req-webgl .continue {
+  margin: 85px 0px 30px 170px;
+  width: 600px;
+  font-size: 23px;
+}
+
+/* line 127, ../scss/project.scss */
+.player-list li {
+  display: inline;
+}
+
+/* line 132, ../scss/project.scss */
+.req-welcome h3 {
+  color: #333333;
+  margin-left: 6px;
+}
+
+/* line 139, ../scss/project.scss */
+.req-gameover h1 {
+  margin-lefT: 75px;
+}
+/* line 142, ../scss/project.scss */
+.req-gameover .window p {
+  margin-left: 35px;
+}
+
+/* line 148, ../scss/project.scss */
+.req-project aside {
+  font-size: 20px;
+  margin: 20px 0px 20px 35px;
+}
+
+/* line 154, ../scss/project.scss */
+.frames {
+  width: 990px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 160, ../scss/project.scss */
+.life {
+  height: 20px;
+  width: 100%;
+  background-color: #cdeb8e;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cdeb8e), color-stop(100%, #a5c956));
+  background-image: -webkit-linear-gradient(top, #cdeb8e 0%, #a5c956 100%);
+  background-image: -moz-linear-gradient(top, #cdeb8e 0%, #a5c956 100%);
+  background-image: -o-linear-gradient(top, #cdeb8e 0%, #a5c956 100%);
+  background-image: linear-gradient(top, #cdeb8e 0%, #a5c956 100%);
+  text-transform: lowercase;
+}
+
+/* line 172, ../scss/project.scss */
+.frame {
+  position: absolute;
+  width: 990px;
+  top: -1000px;
+  margin: 0 auto;
+}
+/* line 177, ../scss/project.scss */
+.frame h1 {
+  font-weight: normal;
+  font-size: 60px;
+  text-shadow: 2px 1px 4px #272626;
+  height: 90px;
+  color: #F3F5F7;
+  margin: 0px 0px 0px 45px;
+  padding: 0px;
+  text-transform: lowercase;
+}
+/* line 187, ../scss/project.scss */
+.frame .window {
+  -webkit-box-shadow: "inset 0px 1px 0px rgba(255,255,255, 0.25), 0px 10px 20px rgba(0,0,0, 0.7)";
+  -moz-box-shadow: "inset 0px 1px 0px rgba(255,255,255, 0.25), 0px 10px 20px rgba(0,0,0, 0.7)";
+  box-shadow: "inset 0px 1px 0px rgba(255,255,255, 0.25), 0px 10px 20px rgba(0,0,0, 0.7)";
+  width: 900px;
+  overflow: hidden;
+  background: #FFF;
+  position: relative;
+  min-height: 250px;
+  max-height: 460px;
+  margin: 0 auto;
+}
+/* line 196, ../scss/project.scss */
+.frame .window .part {
+  width: 25%;
+  float: left;
+}
+/* line 199, ../scss/project.scss */
+.frame .window .part h3 {
+  margin: 20px 0px 0px 0px;
+}
+/* line 203, ../scss/project.scss */
+.frame .window .part-large {
+  float: left;
+  width: 70%;
+  padding-right: 4%;
+}
+/* line 207, ../scss/project.scss */
+.frame .window .part-large ul {
+  margin-left: 5%;
+}
+/* line 210, ../scss/project.scss */
+.frame .window .part-large li {
+  font-size: 18px;
+  margin: 10px 0px 10px 0px;
+  list-style-type: square;
+}
+/* line 216, ../scss/project.scss */
+.frame .window h1 {
+  margin: 0px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #c0c0c0;
+}
+/* line 222, ../scss/project.scss */
+.frame .window h1.logo span {
+  color: #000011;
+}
+/* line 226, ../scss/project.scss */
+.frame .window .under-logo {
+  position: absolute;
+  top: 47px;
+  left: 350px;
+}
+
+/* line 234, ../scss/project.scss */
+.plays {
+  clear: both;
+}
+/* line 236, ../scss/project.scss */
+.plays .play {
+  overflow: hidden;
+  float: left;
+  width: 9%;
+  font-size: 10px;
+  border-left: 1px solid grey;
+  padding: 0.7%;
+  margin: 0.7%;
+  white-space: nowrap;
+}
+
+/* line 248, ../scss/project.scss */
+.progress {
+  display: none;
+}
+
+/* line 252, ../scss/project.scss */
+.ossprojects {
+  overflow: hidden;
+  margin: 0px 0px 20px 25px;
+}
+/* line 253, ../scss/project.scss */
+.ossprojects li {
+  cursor: pointer;
+  float: left;
+  width: 20%;
+  margin: 1%;
+  padding: 1%;
+  height: 100px;
+  overflow: hidden;
+}
+/* line 261, ../scss/project.scss */
+.ossprojects li span {
+  display: block;
+}
+/* line 265, ../scss/project.scss */
+.ossprojects li .name {
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+/* line 279, ../scss/project.scss */
+.about {
+  position: absolute;
+  color: #FFF;
+  left: 0px;
+  bottom: 0px;
+  font-size: 10px;
+}
+/* line 285, ../scss/project.scss */
+.about a {
+  color: #FFF;
+}
+
+/* line 290, ../scss/project.scss */
+.again {
+  position: absolute;
+  top: 40px;
+  right: 36px;
+  width: 200px;
+}
+
+/* line 297, ../scss/project.scss */
+.g-on {
+  color: green;
+}
+
+/* line 301, ../scss/project.scss */
+.level {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+  display: none;
+  background-color: #fc4e1e;
+  border-radius: 10px;
+  height: 100px;
+  width: 10%;
+  top: 80px;
+  margin-left: -10%;
+  left: 50%;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+}
+/* line 314, ../scss/project.scss */
+.level div {
+  margin-top: 10px;
+  font-size: 24px;
+}
+/* line 317, ../scss/project.scss */
+.level div span {
+  font-size: 45px;
+  display: block;
+  font-weight: bold;
+  margin: 0auto;
+}
+
+/* line 326, ../scss/project.scss */
+.window button.music {
+  padding: 2px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+/* line 331, ../scss/project.scss */
+body > .control-help .music {
+  font-size: 12px;
+  padding: 0px 5px;
+  margin: 0px;
+  border: 0px;
+  text-align: left;
+  text-shadow: none;
+}
