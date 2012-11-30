@@ -50,7 +50,7 @@ Template.help.musicStatus = function () {
  */
 Template.help.events({
     'click .music': function (event, template) {
-        if (Session.get('musicStatus', 'on')) {
+        if (Session.equals('musicStatus', 'on')) {
             Session.set('musicStatus', 'off');
             MUSIC.pause();
         } else {
