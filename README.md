@@ -1,6 +1,7 @@
 # Core Committer - The Game
 
 ![alt text](http://committer.meteor.com/img/poster.png "The Core Committer")
+
 [WATCH GAME TRAILER](http://www.youtube.com/watch?v=BDPUvtY8Lr0 "Core Committer Game Trailer")
 
 
