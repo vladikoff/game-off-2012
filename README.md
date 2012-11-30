@@ -2,7 +2,7 @@
 
 ![alt text](http://committer.meteor.com/img/poster.png "The Core Committer")
 
-[WATCH GAME TRAILER](http://www.youtube.com/watch?v=BDPUvtY8Lr0 "Core Committer Game Trailer")
+[ [WATCH GAME TRAILER](http://www.youtube.com/watch?v=BDPUvtY8Lr0 "Core Committer Game Trailer") ]
 
 
 ## Instructions
@@ -29,8 +29,12 @@
 
 ### GamePad Controls
 ![](http://committer.meteor.com/img/gamepad-map.png "GamePad Controls")
-
-
+* Plug in your controller, smart pressing buttons when you get into game mode (after the menus). 
+'Gamepad' in the bottom right corner should say 'on'
+* If you can't get it to work, make sure your controller works with the [HTML5 Rocks Tester](http://www.html5rocks.com/en/tutorials/doodles/gamepad/gamepad-tester/tester.html
+). Make sure to close the tester tab, because the controller can access only one browser tab at a time
+* Controllers tested: XBOX360, Logitech F310, PS3  
+ 
 ## Features
 
 * 2D & 3D Game Modes
