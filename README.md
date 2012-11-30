@@ -46,4 +46,4 @@
 * All project names & trademarks are the property of their respective owners
 * Game music used under Creative Commons License.
 Thanks to [Flembaz](http://soundcloud.com/flembaz/sets/indigo/) (Written, produced, mixed, mastered by João Bandarra & Pedro R. Artur)
-* Source Installation instructions are in [INSTALL.md] (INSTALL.md)
+* Source Installation instructions are in ```INSTALL.md```
