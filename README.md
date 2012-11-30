@@ -1,13 +1,12 @@
-# The Core Committer
+# Core Committer - The Game
 
-![alt text](public/misc/poster.png "The Core Committer")
+![alt text](http://committer.meteor.com/img/poster.png "The Core Committer")
+[WATCH GAME TRAILER](http://www.youtube.com/watch?v=BDPUvtY8Lr0 "Core Committer Game Trailer")
 
-
-## Story
 
 ## Instructions
 * allow the code blocks to hit the related branch color
-* i.e. good: ![alt text](public/img/tutorial-good.png ""), bad: ![alt text](public/img/tutorial-bad.png "")
+* i.e. good: ![](http://committer.meteor.com/img/tutorial-good.png), bad: ![](http://committer.meteor.com/img/tutorial-bad.png)
 * destroy the blocks that do not match the branch color
 * branches change if you destroy matching blocks or a  block
 * the game gets harder over time, be prepared!
@@ -28,20 +27,22 @@
 
 
 ### GamePad Controls
-![alt text](public/img/gamepad-map.png "GamePad Controls")
+![](http://committer.meteor.com/img/gamepad-map.png "GamePad Controls")
 
 
 ## Features
 
-*
+* 2D & 3D Game Modes
+* Compatible with WebGL enabled browsers (three.js support).
+* Tested in Chrome & Firefox
 * HTML5 GamePad support in Chrome
+* Top & Recent Scores
 * GitHub Auth to save your game score
-* 3 Music Tracks
+* 3 amazing wub wub wub music tracks
 
 ## Notes
 
 * All project names & trademarks are the property of their respective owners
 * Game music used under Creative Commons License.
-Thanks to [Flembaz (Written, produced, mixed, mastered by João Bandarra & Pedro R. Artur)] (http://soundcloud.com/flembaz/sets/indigo/)
+Thanks to [Flembaz](http://soundcloud.com/flembaz/sets/indigo/) (Written, produced, mixed, mastered by João Bandarra & Pedro R. Artur)
 * Source Installation instructions are in [INSTALL.md] (INSTALL.MD)
-
