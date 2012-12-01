@@ -124,7 +124,7 @@
      */
     CoreCommit.prototype.trackGameLevel = function () {
         var level,
-            minSpeed = 17000;
+            minSpeed = 15000;
 
         if (this.FRAME > 1000) {
             level = parseInt(this.FRAME / 1000, 10);
@@ -135,7 +135,7 @@
 
                 if (this.__CRATE_RATE > 65) this.__CRATE_RATE -= 8;
                 // Increase speed here too.
-                if (this.SPEED > minSpeed) this.SPEED -= 700;
+                if (this.SPEED > minSpeed)  { this.SPEED -= 700 } else { this.speed -=300 };
             }
         }
     };

@@ -86,7 +86,7 @@ function populateProjects() {
         },
         {
             code:'lodash',
-            name:'Lodash',
+            name:'Lo-dash',
             commits:0,
             stars:0,
             color:'#0a1629'
