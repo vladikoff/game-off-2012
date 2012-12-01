@@ -133,7 +133,7 @@
                 this.SESSION.LEVEL = level;
                 this.dispatchEvent(new CustomEvent('levelUpdate', { 'detail':this.SESSION.LEVEL  }));
 
-                if (this.__CRATE_RATE > 70) this.__CRATE_RATE -= 8;
+                if (this.__CRATE_RATE > 65) this.__CRATE_RATE -= 8;
                 // Increase speed here too.
                 if (this.SPEED > minSpeed) this.SPEED -= 700;
             }
@@ -398,11 +398,9 @@
                     this.gameSwitchBranch();
                     break;
                 case 1: // star
-                    this.SESSION.STARS++;
                     this.sendSession(this.SESSION);
                     break;
                 default:
-                    this.SESSION.STARS++;
                     this.sendSession(this.SESSION);
                     break
             }
