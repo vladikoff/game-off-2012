@@ -71,7 +71,7 @@
 
 
     /**
-     * Animate the game
+     * Start the game
      */
     CoreCommit.prototype.start = function () {
         var self = this;
